@@ -1,5 +1,7 @@
 ﻿function storyBuild() {
 
+    alert('Story build:main start');
+
     // Story content strings for output
     let txtStoryHeader = ''
     let txtStoryTitle = ''

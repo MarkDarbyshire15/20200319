@@ -8,41 +8,11 @@
     <script src="Scripts/storyParty.js"></script>
     <script src="Scripts/storyZoo.js"></script>
     <script src="Scripts/Main.js"></script>
-    <!--<script>
-        function buildTheStory() {
-            //alert('Story build start');
-            let theStory = storyBuild()
-
-            if (theStory == '') {
-                // Something wasn't answered properly (empty string) or user pressed cancel.
-                document.getElementById('txtStory').innerHTML = 'You didn\'t answer all of the questions properly - try again or there\'s no story tonight!';
-                document.getElementById('btnGenerateStory').value = 'Start again'
-            }
-            else {
-                // Write out story
-                document.getElementById('txtStory').innerHTML = theStory;
-            }
-            //alert('Story build finished');
-        }
-    </script>-->
-    <style>
-        body { font-family: Arial,'Times New Roman', Times, serif; }
-        html { -moz-box-sizing: border-box; box-sizing: border-box; scroll-behavior: smooth; }
-        body { padding: 0; margin: 0; font-family: Arial, Helvetica, sans-serif; font-size: 16px; }
-        h1, h2, h3, h4, h5, h6 { }
-        p { }
-        .divStory { width:80%; text-align:center; padding:10px; }
-        .boy, .girl { border-radius: 1em; text-align:left; width:100%; background-color:lightcyan; padding:10px; }
-        .boy  {border: 1px solid blue; background-color:lightblue}
-        .girl {border: 1px solid pink; background-color:lightpink}
-    </style>
-</head>
-
-<body>
-
     <script>
         function buildTheStory() {
-            //alert('Story build start');
+
+            alert('Story build start');
+
             let theStory = storyBuild()
 
             if (theStory == '') {
@@ -57,7 +27,20 @@
             //alert('Story build finished');
         }
     </script>
+    <style>
+        body { font-family: Arial,'Times New Roman', Times, serif; }
+        html { -moz-box-sizing: border-box; box-sizing: border-box; scroll-behavior: smooth; }
+        body { padding: 0; margin: 0; font-family: Arial, Helvetica, sans-serif; font-size: 16px; }
+        h1, h2, h3, h4, h5, h6 { }
+        p { }
+        .divStory { width:80%; text-align:center; padding:10px; }
+        .boy, .girl { border-radius: 1em; text-align:left; width:100%; background-color:lightcyan; padding:10px; }
+        .boy  {border: 1px solid blue; background-color:lightblue}
+        .girl {border: 1px solid pink; background-color:lightpink}
+    </style>
+</head>
 
+<body>
     <div class="divStory">
         <h1>Welcome to the Story Writer game</h1>
         <p>
